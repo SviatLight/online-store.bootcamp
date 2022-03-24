@@ -1,0 +1,19 @@
+.content__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.content__setings {
+    width: 280px;
+    height: 922px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+}
+
+.content__productChoise {
+    width: 900px;
+    height: 922px;
+    margin-left: 25px;
+}
