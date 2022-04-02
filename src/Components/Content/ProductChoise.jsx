@@ -1,5 +1,6 @@
 import React from "react";
 import './ProductChoise.css';
+import ProductCard from './ProductCard.jsx';
 
 const ProductChoise = () => {
     return (
@@ -7,6 +8,7 @@ const ProductChoise = () => {
             <div className="search">
                 <input type="text" placeholder="Search" />
             </div>
+            <ProductCard />
         </div>
     )
 }
