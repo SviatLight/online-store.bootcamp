@@ -1,0 +1,19 @@
+.test {
+    width: 316px;
+    height: 396px;
+    background: black;
+}
+
+.product__wrapper {
+    background: red;
+}
+
+.product__photo img {
+    display: block;
+    width: 200px;
+}
+
+.product-rate-price {
+    display: flex;
+    justify-content: space-between;
+}
