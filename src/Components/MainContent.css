@@ -6,14 +6,22 @@
 
 .content__setings {
     width: 280px;
-    height: 922px;
+    height: 100%;
+    min-height: 922px;
     background-color: #fff;
     box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
     border-radius: 8px;
 }
 
+@media (max-width: 750px) {  
+    .content__setings {
+        display: none;
+    }
+}
+
 .content__productChoise {
     width: 900px;
-    height: 922px;
+    height: 100%;
+    min-height: 922px;
     margin-left: 25px;
 }
